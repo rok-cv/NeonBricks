@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: clip;
+}
+
+body {
+  background-image: url("../img/background1.jpg");
+  /* Centriranje */
+  background-position: center center;
+  /* Ni ponavljanja slike */
+  background-repeat: no-repeat;
+  /* Fiksna velikost glede na stran */
+  background-attachment: fixed;
+  /* Prilagajanje strani */
+  background-size: cover;
+  /* Med tem ko se slika nalaga */
+  background-color: #464646;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid white;
+}
+
+#head {
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  color: white;
+  padding: 30px 0;
+}
+
+#gumbi {
+  margin: auto;
+  width: 482px;
+}
+
+#reset {
+  border: 1px solid white;
+  height: 30px;
+  width: 160px;
+  text-align: center;
+  padding-top: 5px;
+  color: white;
+  float: left;
+}
+#reset:hover {
+  background-color: rgb(0, 249, 255, 0.5);
+  color: #bbff99;
+}
+
+#start {
+  float: left;
+  border: 1px solid white;
+  height: 30px;
+  width: 160px;
+  text-align: center;
+  padding-top: 5px;
+  color: white;
+}
+
+#start:hover {
+  background-color: rgb(0, 249, 255, 0.5);
+  color: #bbff99;
+}
+
+#ins {
+  float: left;
+  border: 1px solid white;
+  height: 30px;
+  width: 162px;
+  text-align: center;
+  padding-top: 5px;
+  color: white;
+}
+
+#ins:hover {
+  background-color: rgb(0, 249, 255, 0.5);
+  color: #bbff99;
+}
+
+#pause {
+  border: 1px solid white;
+  height: 30px;
+  width: 160px;
+  text-align: center;
+  padding-top: 5px;
+  color: white;
+  margin-left: 160px;
+}
+
+#pause:hover {
+  background-color: rgb(0, 249, 255, 0.5);
+  color: #bbff99;
+}
+
+button {
+  background-color: transparent;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: clip;
+  src: url("../font/clip/Clip.ttf");
+}
+
+#footer {
+  color: white;
+  position: absolute;
+  bottom: 5px;
+  text-align: center;
+  width: 100%;
+}
